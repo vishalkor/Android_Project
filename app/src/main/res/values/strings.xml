@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Linear</string>
+    <string-array name="course_names">
+        <item>Highest Qualification</item>
+        <item>BSC(Comp.sc)</item>
+        <item>BSC(Maths/Physics/Chem)</item>
+        <item>BSC</item>
+    </string-array>
+
+</resources>

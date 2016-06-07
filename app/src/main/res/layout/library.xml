@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="111dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/pucsd" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/scrollView5" >
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView2"
+                    android:src="@drawable/library"
+                    android:longClickable="false" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="About Library"
+                    android:id="@+id/textView20"
+                    android:textColor="#0000FF"
+                    android:textSize="25dp"
+                    android:layout_marginTop="20dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:id="@+id/textView21"
+                    android:layout_marginTop="20dp"
+                    android:textSize="18dp"
+                    android:text="Established in January 1950, named in honor of the First Vice-Chancellor Dr. M.R. Jayakar" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:id="@+id/textView22"
+                    android:layout_marginTop="20dp"
+                    android:textColor="#0000FF"
+                    android:textSize="25dp"
+                    android:text="Special Features" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:id="@+id/textView23"
+                    android:layout_marginTop="20dp"
+                    android:textSize="18dp"
+                    android:text="Participation in UGC- INFLIBNET program. Under this program access to more than 2000 journals is provided" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:id="@+id/textView29"
+                    android:layout_marginTop="20dp"
+                    android:textSize="18dp"
+                    android:text="Guidance in respect of technical and organizational matters relating to libraries is extended, when asked for." />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:id="@+id/textView28"
+                    android:layout_marginTop="20dp"
+                    android:textSize="18dp"
+                    android:text="Orientation Course in Library use for new students enrolled in various Departments of the University." />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:id="@+id/textView27"
+                    android:layout_marginTop="20dp"
+                    android:textSize="18dp"
+                    android:text="Inter Library Loan System extended to affiliates colleges and Recognized institutions." />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:id="@+id/textView26"
+                    android:layout_marginTop="20dp"
+                    android:textSize="18dp"
+                    android:text="Establishment of Internet Center for students of the University." />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:id="@+id/textView25"
+                    android:layout_marginTop="20dp"
+                    android:textSize="18dp"
+                    android:text="Implementation of RFID technology in the library along with smart cards to faculty and students." />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:id="@+id/textView24"
+                    android:layout_marginTop="20dp"
+                    android:textSize="18dp"
+                    android:text="Jayakar library is a part of Universal Digital Library program since 2002." />
+            </LinearLayout>
+        </ScrollView>
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

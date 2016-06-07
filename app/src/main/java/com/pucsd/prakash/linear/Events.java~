@@ -1,0 +1,15 @@
+package com.pucsd.prakash.linear;
+
+import android.app.Activity;
+import android.os.Bundle;
+
+/**
+ * Created by prakash on 15/5/16.
+ */
+public class Events extends Activity {
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.events);
+    }
+}
